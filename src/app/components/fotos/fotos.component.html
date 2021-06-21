@@ -1,0 +1,7 @@
+<div class="card-columns">
+
+    <div *ngFor="let item of items | async" class="card">
+        <img [src]="item.url" class="card-img-top">
+    </div>
+
+</div>
